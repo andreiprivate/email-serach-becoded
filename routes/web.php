@@ -15,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/login', [AuthController::class, 'login']);
 Route::get('/', [EmailController::class, 'index']);
 Route::post('/find-emails', [EmailController::class, 'findEmails']);
